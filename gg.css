@@ -1,0 +1,154 @@
+.page
+{
+width:auto;
+height:auto;
+border-style:groove;
+background-color:brown;
+}
+.headerpart
+{
+width:1490px;
+height:500px;
+border-style:groove;
+background-color:brown;
+}
+.linkspart
+{
+width:1490px;
+height:40px;
+border-style:groove;
+margin-top:10px;
+background-color:brown;
+}
+.linkspart a
+{
+color:rgb(120,130,140);
+text-decoration:none;
+}
+.linkspart a:hover
+{
+background-color:rgb(120,130,140);
+color:rgb(235,220,245);
+}
+.bodypart
+{
+width:1490px;
+height:1200px;
+border-style:groove;
+margin-top:10px;
+}
+.bodypart .imagepart
+{
+width:800px;
+height:800px;
+border-style:groove;
+display:inline-block;
+}
+.bodypart .logpart
+{
+width:350px;
+height:775px;
+border-style:groove;
+float:right;
+margin-left:5px;
+Padding:10px;
+display:inline-block;
+}
+.bodypart .newspart
+{
+width:280px;
+height:800px;
+border-style:groove;
+float:right;
+}
+.bodypart  .newspart h2
+{
+color:green;
+margin-left:10px;
+}
+.bodypart  .newspart .news
+{
+width:220px;
+margin-left:5px;
+height:700px;
+}
+.bodypart  .newspart .news h4
+{
+color:blue;
+}
+.bodypart h1
+{
+color:blue;
+text-align:center;
+}
+.querypart
+{
+width:500px;
+height:200px;
+border-style:groove;
+margin-top:10px;
+background-color:darkbrown;
+}
+.detailspart
+{
+width:1490px;
+height:300px;
+border-style:groove;
+margin-top:10px;
+background-color:darkbrown;
+}
+.detailspart .type
+{
+width:300px;
+height:100px;
+background-color:darkbrown;
+display:inline-block;
+}
+.detailspart .startpart
+{
+width:300px;
+height:100px;
+background-color:darkbrown;
+display:inline-block;
+}
+.detailspart .endpart
+{
+width:300px;
+height:100px;
+background-color:darkbrown;
+display:inline-block;
+}
+.detailspart .paymentpart
+{
+width:300px;
+height:100px;
+background-color:darkbrown;
+display:inline-block;
+}
+.detailspart .sub
+{
+width:100px;
+height:100px;
+margin-top:50px;
+background-color:darkbrown;
+display:inline-block;
+}
+
+.footerpart
+{
+width:1490px;
+height:25px;
+margin-top:10px;
+border-style:groove;
+background-color:darkbrown;
+}
+
+
+
+
+
+
+
+
+
+

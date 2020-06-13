@@ -1,0 +1,25 @@
+/*<form>
+<select name="mmmm">
+    <option value="w">Type</option>
+    <option value="v">Sport</option>
+    <option value="q" >Cultural</option>
+    <option value="r">Convocation</option>
+  <option value="ww">Conference</option>
+    <option value="vv">Birthday Party</option>
+    <option value="qq" >Anniveressary Party</option>
+    <option value="rr">Office Get-Together Celebration</option>
+  <option value="rd">Family Get-Together Celebration</option>
+  </select>
+</form>*/
+/*<form>
+<select name="mmmm">
+    <option value="wx">Activities</option>
+    <option value="vg">Full Event</option>
+    <option value="wdq" >Transport</option>
+    <option value="jr">Food and Catering</option>
+  <option value="wjw">Clothing</option>
+    <option value="vgv">Music</option>
+    <option value="qgq" >Dance</option>
+    <option value="rry">Logging</option>
+  <option value="rhgd">Voyaging</option>
+  </select>*/

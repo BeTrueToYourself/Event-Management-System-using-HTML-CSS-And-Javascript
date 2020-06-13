@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("All Blanks should be must be filled carefully");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<form name="myForm" action="web.html" onsubmit="return validateForm()" method="post">
+<p style="color:white">First Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="first name"><span style="color:white">(max 30 character a-z and A-Z)</span></p><br>
+<p  style="color:white">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="last name"><span style="color:white">(max 30 character a-z and A-Z)</span></p><br>
+<p  style="color:white">DATE OF BIRTH:&nbsp;&nbsp;&nbsp;&nbsp;<select name="day"><option value="e">1</option><option value="b">2</option><option value="c">3</option><option value="d">4</option></select>&nbsp;&nbsp;&nbsp;&nbsp;<select name="month"><option value="j">January</option><option value="f">February</option><option value="m">March</option><option value="a">April</option></select><select name="year"><option value="2018">2018</option><option value="2">2019</option><option value="3">2017</option><option value="4">2016</option></select>(e.g:DD/MM/YYYY)</p><br>
+<p  style="color:white">EMAIL ID:&nbsp;&nbsp;&nbsp;&nbsp;<input name="text"name="emailid"></p>
+<p  style="color:white">MOBILE NUMBER:&nbsp;&nbsp;&nbsp;&nbsp;<input name="text"name="mobilenumber"><span style="color:white">(10 digit Number)</span></p><br>
+<p  style="color:white">GENDER:&nbsp;&nbsp;&nbsp;&nbsp;Male<input type="radio"name="gender">&nbsp;&nbsp;&nbsp;&nbsp;Female<input type="radio"name="gender"></p><br>
+<p  style="color:white">ADDRESS:&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="address" row="5" col="10">Enter your address</textarea></p><br>
+<p  style="color:white">CITY:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="city"><span style="color:white">(max 30 character a-z and A-Z)</span></p><br>
+<p  style="color:white">PIN CODE:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="last name"><span style="color:white">(6 digit number)</span></p><br>
+<p  style="color:white">STATE:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="last name">(max 30 character a-z and A-Z)</span></p><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
